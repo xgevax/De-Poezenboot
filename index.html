@@ -10,17 +10,13 @@
   </head>
   <body>
     <header>
-      <nav class="header-nav">
-        <div class="header-logo">
-          <img src="./assets/boat_icon_green.png" alt="logo">
-          <div class="header-logo-overlay"></div>
-        </div>
+      <nav>
+        <img src="./assets/boat_icon_green.png" alt="logo">
       </nav>
     </header>
 
-    <section class="intro" id="intro">
-      <div class="front-image">
-        <img src="./assets/front_illustration.png" alt="Front page illustration">
+    <section id="intro">
+      <img src="./assets/front_illustration.png" alt="Front page illustration">
         <h2>
           C <br >
           A <br >
@@ -28,22 +24,17 @@
           S
         </h2>
 
-        <div class="front-image_overlay"></div>
-      </div>
+      <div></div>
 
-      <div class="front-content">
-        <div class="front-content-info">
-          <p>Preventing soggy paws since 1966</p>
-        </div>
-
-        <div class="front-content-about">
-          <h3>About Them</h3>
-          <p>A loving and sustainable initiative in Amsterdam, provides homeless cats with a home on water, care and sterilization. Adopt love today!</p>
-        </div>
-      </div>
+      <p>Preventing soggy paws since 1966</p>
     </section>
 
-    <section class="about-us" id="about">
+    <section class="front-content-about">
+      <h3>About Them</h3>
+      <p>A loving and sustainable initiative in Amsterdam, provides homeless cats with a home on water, care and sterilization. Adopt love today!</p>
+    </section>
+    
+    <section id="about">
       <div class="about-us-images">
         <div class="about-us-images1">
           <img src="./assets/poezenboot_ingang.jpg" alt="De Poezenboot">
@@ -58,16 +49,16 @@
           </figure>
         </div>
       </div>
-
-      <div class="mission">
-        <h3>Their mission is to rescue and care for stray cats</h3>
-        <p>With the help of compassionate volunteers who dedicate their time and effort, and generous donors who contribute essential funds. The Poezenboot is able to provide not only love and health but also diligently work towards finding each rescued cat a suitable and loving forever home</p>
-      </div>
     </section>
 
-    <section class="gallery" id="gallery">
-      <h2 class="gallery-title">Gallery</h2>
-      <div class="gallery-images">
+    <section class="mission">
+      <h3>Their mission is to rescue and care for stray cats</h3>
+      <p>With the help of compassionate volunteers who dedicate their time and effort, and generous donors who contribute essential funds. The Poezenboot is able to provide not only love and health but also diligently work towards finding each rescued cat a suitable and loving forever home</p>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div>
         <img src="./assets/poezenboot_ingang.jpg" alt="gallery photo">
         <img src="./assets/poezenboot_logo.jpg" alt="gallery photo">
         <img src="./assets/poezenboot_achter.jpg" alt="gallery photo">
@@ -84,49 +75,48 @@
       <a class="gallery-button" href="https://depoezenboot.nl/nl/fotoboek">See more<img src="./assets/right_up_arrow.png" alt="arrow up right"></a>
     </section>
 
-    <section class="support" id="support">
-      <article class="support-bulletpoint">
-        <div class="support-content">
-          <h3>Support</h3> 
-          <!-- Error maar er staat hier een heading -->
-          <p>Supporting De Poezenboot means making a direct impact on the lives of stray cats in Amsterdam. Your contributution helps provide essential shelter, shelter, and medical treatment, ensuring these cats receive the love and attention they deserve.</p>
-  
-          <ul class="bullet-point-list">
-            <li>
-              <img class="bullet-point-image" src="./assets/bulletpoint_icon_vcat.png" alt="bulletpoint cat">
-              <p class="bullet-point">Rescue strays</p>
-            </li>
-            <li>
-              <img class="bullet-point-image" src="./assets/bulletpoint_icon_vboat.png" alt="bulletpoint boat">
-              <p class="bullet-point">Unique floating shelter</p>
-            </li>
-            <li>
-              <img class="bullet-point-image" src="./assets/bulletpoint_icon_vleaf.png" alt="bulletpoint leaf">
-              <p class="bullet-point">Sustainable approach</p>
-            </li>
-          </ul>
-        </div>
-      </article>
+    <section id="support">
+      <article class="support-content">
+        <h3>Support</h3> 
+        <p>Supporting De Poezenboot means making a direct impact on the lives of stray cats in Amsterdam. Your contributution helps provide essential shelter, shelter, and medical treatment, ensuring these cats receive the love and attention they deserve.</p>
 
-      <article class="donate">
-        <div class="support-content">
-          <h3>Donate</h3>
-          <p>The boat needs upgrading! Donations support the care, vaccinatios and medical treatment for rescued cats. With the current boat aging after 45 years, your help is cricual in building a new sustainable and energy effiecient home for these furry friends, </p>
-        </div>
-        <a class="donate-button" href="https://depoezenboot.nl/nl/doneren">See more<img src="./assets/right_up_arrow.png" alt="arrow up right"></a>
+        <ul>
+          <li>
+            <img src="./assets/bulletpoint_icon_vcat.png" alt="bulletpoint cat">
+            <p>Rescue strays</p>
+          </li>
+          <li>
+            <img src="./assets/bulletpoint_icon_vboat.png" alt="bulletpoint boat">
+            <p>Unique floating shelter</p>
+          </li>
+          <li>
+            <img src="./assets/bulletpoint_icon_vleaf.png" alt="bulletpoint leaf">
+            <p>Sustainable approach</p>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="donate">
+      <article class="support-content">
+        <h3>Donate</h3>
+        <p>The boat needs upgrading! Donations support the care, vaccinatios and medical treatment for rescued cats. With the current boat aging after 45 years, your help is cricual in building a new sustainable and energy effiecient home for these furry friends, </p>
       </article>
     </section>
     
-  <footer class="footer flex-between">
+  <footer>
+  
     <img src="./assets/icon_boat_green.png" alt="footer logo">
 
-    <ul class="footer-nav">
-      <li><a href="#intro">Intro</a></li>
-      <li><a href="#about">About them</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#support">Support</a></li>
-    </ul>
-    <a href="https://www.instagram.com/xarthemselfish/"><img class="bullet-point-image" src="./assets/instagram_logo.png" alt="instagram"></a>
+    <nav>
+      <ul>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#about">About them</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#support">Support</a></li>
+      </ul>
+    </nav>
+
   </footer>
   </body>
 </html>
